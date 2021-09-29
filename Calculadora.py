@@ -55,9 +55,9 @@ Você quer usar a calculadora de novo?
 Por favor digita S para SIM e N para NÃO
 ''')
 
-    if calc_denovo.upper() == 'S':
+    if calc_denovo.upper().strip() == 'S':
         calculadora()
-    elif calc_denovo.upper() == 'N':
+    elif calc_denovo.upper().strip() == 'N':
         print('Grato por utilizar a calculadora Werneck.')
     else:
         denovo()
